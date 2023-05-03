@@ -1,3 +1,4 @@
+/* styling the whole webpage div(fulldisplay) */
 .fullDisplay {
     background: url(./orange-blue.jpg);
     display: flex;
@@ -8,6 +9,8 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+/* styling the timer part which is displayed  */
 #stopwatch{
     font-family: fantasy;
     font-size: 150px;
@@ -18,9 +21,13 @@
     margin-bottom: 10px;
     border: 1px darkgray;
 }
+
+/* buttons part */
 #buttons{
     display: flex;
 }
+
+/* button styling */
 button{
     
     padding: 20px;
@@ -34,6 +41,8 @@ button{
     box-shadow: 0px -9px 4px rgba(239, 243, 45, 0.5);
     transition: all 0.5s;
 }
+
+/* hovering and active stylings  */
 button:hover{
     cursor:pointer;
     color: whitesmoke;
